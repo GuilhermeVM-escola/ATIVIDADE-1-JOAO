@@ -1,8 +1,30 @@
-//Soma: Declare duas variáveis, num1 e num2. Realize a soma entre elas e
-//exiba o resultado.
-//Subtração: Crie uma variável para armazenar o resultado da subtração
-//de 50 por 25 e mostre-o no console.
-//Multiplicação: Calcule o produto de dois valores numéricos à sua
-//escolha utilizando o operador *.
-//Divisão: Divida o número 100 por 4 utilizando o operador / e exiba o
-//quociente.
+let num1 = 10
+let num2 = 10
+
+let soma = num1 + num2;
+console.log('O RESULTADO DA SOMA SERA:', soma);
+
+/////////////////////////////////////////////////////
+
+let subtração = num1 - num2
+console.log('O RESULTADO DA SUBTRAÇÃO SERA:', subtração);
+
+/////////////////////////////////////////////////////
+
+let multiplicação = num1 * num2
+console.log('O RESULTADO DA MULTIPLICAÇ~~AO SERA:', multiplicação);
+
+/////////////////////////////////////////////////////
+
+let divisão = num1 / num2
+console.log('O RESULTADO DA DIVISÃO SERA:', divisão);
+
+//------Operadores de Comparação (Relacionais)------//
+
+if (10 == 10) {
+    console.log('O VALOR SERA IGUAL'); 
+}
+
+if (10 != 10) {
+console.log('OS VALORES SERA DIFERENTE');
+}
