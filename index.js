@@ -12,7 +12,7 @@ console.log('O RESULTADO DA SUBTRAÇÃO SERA:', subtração);
 /////////////////////////////////////////////////////
 
 let multiplicação = num1 * num2
-console.log('O RESULTADO DA MULTIPLICAÇ~~AO SERA:', multiplicação);
+console.log('O RESULTADO DA MULTIPLICAÇÃO SERA:', multiplicação);
 
 /////////////////////////////////////////////////////
 
@@ -28,3 +28,66 @@ if (10 == 10) {
 if (10 != 10) {
 console.log('OS VALORES SERA DIFERENTE');
 }
+
+/////////////////////////////////////////////////////
+
+if (5<10){
+    console.log('O VALOR SERÁ MENOR')
+};
+
+let preco = 75;
+
+if (preco > 50) {
+  console.log('O PREÇO E MAIOR QUE 50');
+} else {
+  console.log('O PREÇO É MENOR QUE 50');
+}
+
+/////////////////////////////////////////////////////
+
+let idade = 18;
+
+if (idade >= 18) {
+  console.log('ACESSO CONCEDIDO, VOCÊ TEM 18 ANOS OU MAIS');
+} else {
+  console.log('ACESSO NEGADO, VOCÊ É MENOR DE IDADE');
+}
+
+//------Operador Ternário------//
+
+let nota = 9;
+
+let resultado = nota >= 7 ? "aprovado" : "reprovado";
+
+console.log('RESULTADO DO ALUNO:', resultado); 
+  
+/////////////////////////////////////////////////////
+
+let idade = 16;
+
+let status = idade >= 18 ? "adulto" : "menor";
+
+console.log('A PESSOA É:', status);
+
+//------Template Literals------//
+
+let nome = "João";
+
+console.log('Salve', nome); 
+
+/////////////////////////////////////////////////////
+
+let produto = "Relogio do João";
+let preco = 23;
+let quantidade = 2;
+
+let Compra = `Você comprou ${quantidade} unidade(s) de "${produto}".
+O valor unitário é R$ ${preco.toFixed(2)}.
+O total da sua compra foi: R$ ${(preco * quantidade).toFixed(2)}.`;
+
+console.log(resumoCompra);
+
+//------Atividade de Integração------//
+
+
+
