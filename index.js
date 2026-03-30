@@ -81,13 +81,21 @@ let produto = "Relogio do João";
 let preco = 23;
 let quantidade = 2;
 
-let Compra = `Você comprou ${quantidade} unidade(s) de "${produto}".
-O valor unitário é R$ ${preco.toFixed(2)}.
-O total da sua compra foi: R$ ${(preco * quantidade).toFixed(2)}.`;
+let frase = "VOCÊ COMPROU " + quantidade + " UNIDADES DO " + produto + " por R$: " + preco + " cada.";
 
-console.log(resumoCompra);
+console.log(frase);
 
 //------Atividade de Integração------//
+
+const nome = "João";
+let idade = 23;
+
+let classificacao = idade >= 18 ? "MAIOR DE IDADE" : "MENOR DE IDADE";
+
+let mensagem = "OPA, " + nome + " VOCÊ FOI SEPARADO COMO: " + classificacao + "BOA";
+
+console.log(mensagem);
+
 
 
 
