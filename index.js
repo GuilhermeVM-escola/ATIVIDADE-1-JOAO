@@ -35,9 +35,9 @@ if (5<10){
     console.log('O VALOR SERÁ MENOR')
 };
 
-let preco = 75;
+let preco1 = 75;
 
-if (preco > 50) {
+if (preco1 > 50) {
   console.log('O PREÇO E MAIOR QUE 50');
 } else {
   console.log('O PREÇO É MENOR QUE 50');
@@ -45,9 +45,9 @@ if (preco > 50) {
 
 /////////////////////////////////////////////////////
 
-let idade = 18;
+let idade3 = 18;
 
-if (idade >= 18) {
+if (idade3 >= 18) {
   console.log('ACESSO CONCEDIDO, VOCÊ TEM 18 ANOS OU MAIS');
 } else {
   console.log('ACESSO NEGADO, VOCÊ É MENOR DE IDADE');
@@ -63,17 +63,17 @@ console.log('RESULTADO DO ALUNO:', resultado);
   
 /////////////////////////////////////////////////////
 
-let idade = 16;
+let idade2 = 16;
 
-let status = idade >= 18 ? "adulto" : "menor";
+let status = idade2 >= 18 ? "adulto" : "menor";
 
 console.log('A PESSOA É:', status);
 
 //------Template Literals------//
 
-let nome = "João";
+let nome2 = "João";
 
-console.log('Salve', nome); 
+console.log('Salve', nome2); 
 
 /////////////////////////////////////////////////////
 
@@ -87,15 +87,12 @@ console.log(frase);
 
 //------Atividade de Integração------//
 
-const nome = "João";
-let idade = 23;
+const nome1 = "João";
+let idade1 = 23;
 
-let classificacao = idade >= 18 ? "MAIOR DE IDADE" : "MENOR DE IDADE";
+let classificacao = idade1 >= 18 ? "MAIOR DE IDADE" : "MENOR DE IDADE";
 
-let mensagem = "OPA, " + nome + " VOCÊ FOI SEPARADO COMO: " + classificacao + "BOA";
+let mensagem = "OPA, " + nome1 + " VOCÊ FOI SEPARADO COMO: " + classificacao + "BOA";
 
 console.log(mensagem);
-
-
-
 
