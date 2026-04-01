@@ -73,7 +73,7 @@ console.log('A PESSOA É:', status);
 
 let nome2 = "João";
 
-console.log('Salve', nome2); 
+console.log(`Salve, ${nome2}`); 
 
 /////////////////////////////////////////////////////
 
